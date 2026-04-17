@@ -1,21 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "CTK46 - Lab 01",
-  description: "Bài thực hành 1 - Các công nghệ mới trong PTPM",
+  title: "Portfolio — Nguyễn Văn A",
+  description: "Website portfolio cá nhân — CTK44",
 };
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -23,7 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="vi">
-      <body>{children}</body>
+      <body className="min-h-screen flex flex-col">
+        <Navbar />
+        <main className="flex-1">{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
