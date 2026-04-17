@@ -25,8 +25,8 @@ export default function ContactPage() {
             </a>
           </p>
           <p>
-            <strong>Địa chỉ:</strong> Đại học Đà Lạt, 01 Phù Đổng Thiên
-            Vương, Đà Lạt
+            <strong>Địa chỉ:</strong> Đại học Đà Lạt, 01 Phù Đổng Thiên Vương,
+            Đà Lạt
           </p>
         </div>
       </div>

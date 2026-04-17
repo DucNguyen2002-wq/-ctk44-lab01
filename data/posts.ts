@@ -50,8 +50,7 @@ Bạn viết trực tiếp trong HTML:
   {
     slug: "kinh-nghiem-hoc-lap-trinh",
     title: "Chia sẻ kinh nghiệm tự học lập trình hiệu quả",
-    excerpt:
-      "Những bài học rút ra sau 3 năm tự học lập trình ở đại học.",
+    excerpt: "Những bài học rút ra sau 3 năm tự học lập trình ở đại học.",
     content: `Sau 3 năm học tập và thực hành lập trình, tôi rút ra một số kinh
 nghiệm quan trọng:
 

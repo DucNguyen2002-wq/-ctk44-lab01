@@ -18,7 +18,9 @@ export default function AboutPage() {
         <h2 className="text-2xl font-semibold mt-8 mb-4">Học vấn</h2>
         <div className="bg-gray-50 rounded-lg p-4">
           <p className="font-medium">Đại học Đà Lạt</p>
-          <p className="text-gray-500">Cử nhân Công nghệ Thông tin (2021 — 2025)</p>
+          <p className="text-gray-500">
+            Cử nhân Công nghệ Thông tin (2021 — 2025)
+          </p>
         </div>
       </div>
     </div>
